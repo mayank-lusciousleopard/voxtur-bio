@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_TUpjKc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_36wiaE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are self-test kits, and how do they work?",
+            "icon": "none",
+            "row_content": "<p>Self-test kits are diagnostic tools that allow individuals to perform tests at home or remotely. They use easy-to-follow steps and deliver results quickly, typically within <strong>15-20 minutes<\/strong>, without the need for laboratory intervention.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pcrfbV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How reliable are Voxtur Bio self-test kits?",
+            "icon": "none",
+            "row_content": "<p>Voxtur Bio self-test kits are highly reliable and compliant with <strong>CDSCO, NABL, and ISO 13485 standards<\/strong>. They are rigorously validated to ensure accurate results comparable to those from diagnostic laboratories.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jCH6Bh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the results from self-test kits comparable to lab results?",
+            "icon": "none",
+            "row_content": "<p>Yes, Voxtur Bio self-test kits provide results with high sensitivity and specificity, ensuring accuracy similar to diagnostic laboratory tests.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bkhhdn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much time does it take to get results with self-test kits?",
+            "icon": "none",
+            "row_content": "<p>Results are quick and can be obtained within <strong>15-20 minutes<\/strong>, making self-test kits a convenient option for immediate testing.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_G3pcKT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are self-test kits economical compared to lab tests?",
+            "icon": "none",
+            "row_content": "<p>Yes, self-test kits are cost-effective as they eliminate clinic visits, consultation fees, and travel expenses, while providing reliable and accurate results.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CBnQwj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What certifications support the quality of Voxtur Bio products?",
+            "icon": "none",
+            "row_content": "<p>Voxtur Bio products are backed by <strong>ISO 9001:2015<\/strong>, <strong>ISO 13485<\/strong>, <strong>NABL Accreditation<\/strong>, and are registered with <strong>CDSCO<\/strong>. Our in-house R&D is also recognized by <strong>DSIR<\/strong>, ensuring global standards of quality and innovation.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gPe3CU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do Voxtur Bio self-test kits save time?",
+            "icon": "none",
+            "row_content": "<p>Self-test kits provide immediate results at home, eliminating the need to visit diagnostic centers, stand in queues, or wait for lab-generated reports.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hRm3EJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I trust Voxtur Bio for diagnostic solutions?",
+            "icon": "none",
+            "row_content": "<p>Voxtur Bio is a <strong>CDSCO-licensed, WHO-GMP certified<\/strong>, and <strong>ISO-accredited <\/strong>company with state-of-the-art manufacturing facilities and advanced in-house R&D. These credentials guarantee top-quality, safe, and effective products.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_36wiaE",
+        "collapsible_row_pcrfbV",
+        "collapsible_row_jCH6Bh",
+        "collapsible_row_bkhhdn",
+        "collapsible_row_G3pcKT",
+        "collapsible_row_CBnQwj",
+        "collapsible_row_gPe3CU",
+        "collapsible_row_hRm3EJ"
+      ],
+      "custom_css": [
+        "h2.collapsible-content__heading {color: #1b5981;}",
+        ".my-collapsible-content-section .accordion__content p {text-align: justify;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP",
+    "collapsible_content_TUpjKc"
+  ]
+}

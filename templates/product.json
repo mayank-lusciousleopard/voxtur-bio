@@ -1,0 +1,441 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_GcnDbJ": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_6AmiCg": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "iconwithtext_bN8baE": {
+          "type": "iconwithtext",
+          "settings": {
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>{{ product.metafields.custom.results_within.value }}<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for professional use only<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "custom_liquid_etHWQ6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"color:#4A4A4A;font-size:12px;\">Includes exclusive packaging<\/span>\n<br>\n<p style=\"color:#008000;\">\nGet your rapid test kit delivered FAST NOW!\n<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_JzmNBB": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Product Details",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "liquid_content": "{{ product.description }}",
+            "content_2": ""
+          }
+        },
+        "collapsible_tab_iC9GGY": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Ferrtin Blood Test",
+            "icon": "none",
+            "content": "<p>Why It's Important?<br\/>Ferritin is a blood protein that contains iron.A ferritin test measures the amount of ferritin in<br\/>your blood. Ferritin level is lower than normal which your body iron stores are IOW<br\/>and you have iron deficiency.<br\/>AS a result, you could be anemic. Ferritin level is higher than normal which indicates that you<br\/>have a condition that causes your body to store too much iron. It could also point to liver<br\/>disease, rheumatoid arthritis, other inflammatory conditions, hyperthyroidism or some<br\/>types of cancer.<\/p>",
+            "page": "",
+            "liquid_content": "",
+            "content_2": ""
+          }
+        },
+        "collapsible_tab_NDdy9F": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Description",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "liquid_content": "{{ product.description }}",
+            "content_2": ""
+          }
+        },
+        "collapsible_tab_hx7AWg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Features",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_features | metafield_tag }}",
+            "page": "",
+            "liquid_content": "",
+            "content_2": ""
+          }
+        },
+        "collapsible_tab_jpeN7r": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Test Procedure",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.test_procedure | metafield_tag }}",
+            "page": "",
+            "liquid_content": "",
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-11-07T180928.616.png",
+            "content_2": "<p><strong>For whole blood specimen:<\/strong><br\/>I. Bring the pouch to room temperature before opening it. Remove the test cassette from the<br\/>sealed pouch and use it as soon as possible.<br\/>2. Place the cassette on a clean and level su rface.<br\/><strong>For Venipuncture Whole Blood specimen:<\/strong><br\/>• Hold the dropper vertically and transfer 2 drops ofwhole blood (approximately 50pl) to the<br\/>specimen well, then add 1 drop Of buffer (approximately 40pl)t and Start the timer. See<br\/>illustration below.<br\/><strong>For Fingerstick Whole Blood specimen.<\/strong><br\/>Hold the dropper vertically and take a sample from fingerstick and transfer 2 drops of whole<br\/>blood (approximately 501.11) to the specimen well (S) , then add 1 drop Of buffer<br\/> (approximately 40wl) , and start the timer. See illustration below.<br\/>• Wait for the colored line (S) to appear. Read result at 5 minutes. Do not interpret the result<\/p>",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-11-07T181114.816.png"
+          }
+        },
+        "collapsible_tab_bexEMg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Interpretation of the Test",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.interpretation_of_results | metafield_tag }}",
+            "page": "",
+            "liquid_content": "",
+            "content_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_GcnDbJ",
+        "price",
+        "description_6AmiCg",
+        "iconwithtext_bN8baE",
+        "variant_picker",
+        "quantity_selector",
+        "custom_liquid_etHWQ6",
+        "buy_buttons",
+        "collapsible_tab_JzmNBB",
+        "collapsible_tab_iC9GGY",
+        "collapsible_tab_NDdy9F",
+        "collapsible_tab_hx7AWg",
+        "collapsible_tab_jpeN7r",
+        "collapsible_tab_bexEMg"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ingredients_tabs_bc3QhV": {
+      "type": "Ingredients-tabs",
+      "blocks": {
+        "outertab_p7bNwf": {
+          "type": "outertab",
+          "settings": {
+            "main_head": "Ferrtin Blood Test",
+            "custom_liquid": "",
+            "custom_richtext": "<p>Why It's Important?<br\/>Ferritin is a blood protein that contains iron.A ferritin test measures the amount of ferritin in<br\/>your blood. Ferritin level is lower than normal which your body iron stores are IOW<br\/>and you have iron deficiency.<br\/>AS a result, you could be anemic. Ferritin level is higher than normal which indicates that you<br\/>have a condition that causes your body to store too much iron. It could also point to liver<br\/>disease, rheumatoid arthritis, other inflammatory conditions, hyperthyroidism or some<br\/>types of cancer.<\/p>",
+            "title_1": "",
+            "description_1": "",
+            "title_2": "",
+            "description_2": "",
+            "title_3": "",
+            "description_3": "",
+            "title_4": "",
+            "description_4": "",
+            "heading_size": "h1",
+            "show_description": false,
+            "description_style": "body",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "outertab_TjkXAy": {
+          "type": "outertab",
+          "settings": {
+            "main_head": "Product Features",
+            "custom_liquid": "",
+            "custom_richtext": "<p>1. Whole blood compatible<br\/>2. Room Temperature stable.<br\/>3. Long shelf life of 2 years.<br\/>4. Simple to use test, with just a small blood sample, easily collected by a finger-prick<br\/>5. Results in 5 minutes, with easy interpretation.<br\/>6. Available in device format, under 10 tests and 50 tests packing.<\/p>",
+            "title_1": "",
+            "description_1": "",
+            "title_2": "",
+            "description_2": "",
+            "title_3": "",
+            "description_3": "",
+            "title_4": "",
+            "description_4": "",
+            "heading_size": "h1",
+            "show_description": false,
+            "description_style": "body",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "outertab_H4rHc9": {
+          "type": "outertab",
+          "settings": {
+            "main_head": "Test Procedure",
+            "custom_liquid": "",
+            "custom_richtext": "<p>Allow the test, specimen, buffer and \/or controls to reach room temperature (15-300C) prior<br\/>to testing.<br\/><strong>For serum or plasma specimen:<\/strong><br\/>1. Bring the pouch to room temperature (15-300C) before opening it. Remove the cassette<br\/> From the sealed pouch and use it within one hour.<br\/>2. Place the cassette on a Clean and level surface. Hold the dropper vertically and transfer 1<br\/>full drop of serum or plasma (approximately 25pI) to the specimen well of the cassette, then<br\/>add I drop of buffer (approximately 40 VI) and start the timer. Avoid trapping air bubbles in<br\/>the specimen well. See illustration below.<br\/>3. Wait for the colored line (S) to appear. Read the result at 5 minutes when testing a serum or<br\/>plasma specimen.<\/p>",
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-11-07T180928.616.png",
+            "title_1": "",
+            "description_1": "<p><strong>For whole blood specimen:<\/strong><br\/>I. Bring the pouch to room temperature before opening it. Remove the test cassette from the<br\/>sealed pouch and use it as soon as possible.<br\/>2. Place the cassette on a clean and level su rface.<br\/><strong>For Venipuncture Whole Blood specimen:<\/strong><br\/>• Hold the dropper vertically and transfer 2 drops ofwhole blood (approximately 50pl) to the<br\/>specimen well, then add 1 drop Of buffer (approximately 40pl)t and Start the timer. See<br\/>illustration below.<br\/><strong>For Fingerstick Whole Blood specimen.<\/strong><br\/>Hold the dropper vertically and take a sample from fingerstick and transfer 2 drops of whole<br\/>blood (approximately 501.11) to the specimen well (S) , then add 1 drop Of buffer<br\/> (approximately 40wl) , and start the timer. See illustration below.<br\/>• Wait for the colored line (S) to appear. Read result at 5 minutes. Do not interpret the result<\/p>",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-11-07T181114.816.png",
+            "title_2": "",
+            "description_2": "",
+            "title_3": "",
+            "description_3": "",
+            "title_4": "",
+            "description_4": "",
+            "heading_size": "h1",
+            "show_description": false,
+            "description_style": "body",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "outertab_GDjepe": {
+          "type": "outertab",
+          "settings": {
+            "main_head": "Interpretation of the Test",
+            "custom_liquid": "",
+            "custom_richtext": "<p>Please refer to the il lustration<br\/>1. &lt; 13ng\/ml: Two lines appear. No line appears in the test line region (T) . There may be a risk<br\/>of anemia forfemales and males.<br\/>2. &gt;30ng\/ml: Three lines appear. The line in test line region (T) is darker than the reference<br\/>line (R ). It depicts no iron deficiency anemia. Unless Ferritin levels are raised due to some<br\/>other reasons.<br\/>3. &gt; 13ng\/ml &lt; 30ng\/ml: Three lines appear. But the line in the test line region (T) is the same asorl ighter than the reference line (R). There may be a risk of anemia for males.<br\/>4. INVALID: Control line fails to appear. Insufficient specimen volume or incorrect<br\/>procedural techniques are the most likely reasons for control line failure. Review the<br\/>procedure and repeat the test with a new test. If the problem persists, discontinue using the<br\/>test kit im mediately and contact your local distributor.<\/p>",
+            "title_1": "",
+            "description_1": "",
+            "title_2": "",
+            "description_2": "",
+            "title_3": "",
+            "description_3": "",
+            "title_4": "",
+            "description_4": "",
+            "heading_size": "h1",
+            "show_description": false,
+            "description_style": "body",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "outertab_p7bNwf",
+        "outertab_TjkXAy",
+        "outertab_H4rHc9",
+        "outertab_GDjepe"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "extra_content": ""
+      }
+    },
+    "video_ehGXam": {
+      "type": "video",
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper--no-top-margin > .title {font-weight: 600; color: #416b82; text-align: center; margin-bottom: 0 !important;}",
+        ".title-wrapper--no-top-margin {margin-bottom: 1rem !important;}"
+      ],
+      "settings": {
+        "heading": "Complete Video Instructions",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/image_-_2024-11-07T110147.517.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "latest_image_with_text_hfhjRp": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_wJJaNr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let our expert medical team guide you through all your testing and health concerns!<\/strong><br\/>With years of experience in diagnostics and healthcare, our dedicated team is here to offer Premium Members personalized consultations and support for all your rapid testing needs. Whether it’s choosing the right test or understanding your results, we provide expert advice every step of the way.\"<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_BLtxt8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_wJJaNr",
+        "button_BLtxt8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__heading {color: #416b82;}"
+      ],
+      "settings": {
+        "heading": "<p>Consult with Our Health Experts<\/p>",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "People Also Bought",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": "standard",
+        "add_to_cart": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17308936077fa3e6bd": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_djNbgn": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_djNbgn"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "new_testimonials_KYMTdF": {
+      "type": "new-testimonials",
+      "blocks": {
+        "testimonial_XnhT8z": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Highlighted testimonial goes here",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pretium velit massa velit aenean diam.Lorem ipsum <\/p>",
+            "author": "Katherine Langford",
+            "rating": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "testimonial_xKiawy": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Highlighted testimonial goes here",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pretium velit massa velit aenean diam.Lorem ipsum <\/p>",
+            "author": "Katherine Langford",
+            "rating": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "testimonial_dNejBj": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Highlighted testimonial goes here",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pretium velit massa velit aenean diam.Lorem ipsum <\/p>",
+            "author": "Katherine Langford",
+            "rating": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "testimonial_8PrgMa": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Highlighted testimonial goes here",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pretium velit massa velit aenean diam.Lorem ipsum <\/p>",
+            "author": "Katherine Langford",
+            "rating": "<p>Lorem ipsum<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_XnhT8z",
+        "testimonial_xKiawy",
+        "testimonial_dNejBj",
+        "testimonial_8PrgMa"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ingredients_tabs_bc3QhV",
+    "video_ehGXam",
+    "latest_image_with_text_hfhjRp",
+    "related-products",
+    "17308936077fa3e6bd",
+    "new_testimonials_KYMTdF"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "End To End Testing Solutions",
+            "heading_size": "h2"
+          }
+        },
+        "text_EPhe8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>End-to-End Excellence: From Innovation to Impact<br\/><\/strong>At Voxtur Bio Ltd., \"end-to-end\" isn’t just a phrase—it’s the foundation of our commitment to excellence. As an indigenous manufacturing organization, we take pride in owning every step of the process, ensuring unparalleled quality, consistency, and innovation.<\/p><p><strong>From Concept to Completion—All In-House<\/strong><br\/>Our holistic approach begins with in-house research and product design, where revolutionary diagnostic solutions take shape. From development and prototyping to optimization and mass manufacturing, every phase is meticulously managed under one roof. Post-manufacturing processes, including rigorous testing and quality assurance, are seamlessly integrated into our operations.By controlling every stage of production, we ensure:<\/p><ul><li>Uncompromised Quality: Every product meets the highest global standards.<\/li><li>Cost Efficiency: Streamlined operations reduce costs without sacrificing excellence.<\/li><li>Consistency: Reliable results you can trust, every single time.<\/li><\/ul><p><strong>Innovation, Customization, and Patient-Centric Solutions<\/strong><br\/>Our end-to-end expertise empowers us to continually innovate and enhance product quality. With complete control over the manufacturing process, we are able to tailor solutions to meet specific requirements, making customization not only possible but seamless.<\/p><p>This agility allows us to create diagnostic tools that truly add value to patients' lives, improving healthcare outcomes and strengthening the trust placed in our products.<\/p><p><strong>Why Our Approach Matters<\/strong><br\/>By embracing a fully integrated, in-house model, we achieve more than operational efficiency—we deliver on our promise to make diagnostics smarter, faster, and more accessible for everyone.<\/p><p>Voxtur Bio: Where Every Step Counts Toward Better Healthcare.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t",
+        "text_EPhe8j"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP"
+  ]
+}

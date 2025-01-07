@@ -1,0 +1,177 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_7kdcC3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/voxtur-logo.png",
+            "image_width": 200,
+            "alignment": "center",
+            "custom_liquid": ""
+          }
+        },
+        "link_list_GNeJt9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick Links",
+            "menu": "footer-2"
+          }
+        },
+        "link_list_6LqgfX": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Learn More",
+            "menu": "footer"
+          }
+        },
+        "link_list_eqcLWB": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Policies",
+            "menu": "our-policies"
+          }
+        },
+        "brand_information_MqR9Kn": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        }
+      },
+      "block_order": [
+        "image_7kdcC3",
+        "link_list_GNeJt9",
+        "link_list_6LqgfX",
+        "link_list_eqcLWB",
+        "brand_information_MqR9Kn"
+      ],
+      "settings": {
+        "address": "",
+        "another_address": "",
+        "color_scheme": "scheme-4",
+        "newsletter_enable": true,
+        "newsletter_heading": "News letter",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_multicolumn_hbN4Hy": {
+      "type": "new-multicolumn",
+      "blocks": {
+        "column_Pa6BMH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135707.251.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mNXVic": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135722.688.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tgGijk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135807.112.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gxijUM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135833.972.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KxwQ9q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135859.988.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tLakty": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135923.110.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iYQ4N3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-07T135951.463.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Pa6BMH",
+        "column_mNXVic",
+        "column_tgGijk",
+        "column_gxijUM",
+        "column_KxwQ9q",
+        "column_tLakty",
+        "column_iYQ4N3"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: transparent !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "new_multicolumn_hbN4Hy"
+  ]
+}

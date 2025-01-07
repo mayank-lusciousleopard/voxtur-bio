@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Accreditations",
+            "heading_size": "h2"
+          }
+        },
+        "text_EPhe8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. NABL Accreditation (ISO\/IEC 17025)<br\/><\/strong>Voxtur Bio Ltd holds <strong>NABL Accreditation<\/strong>, which certifies the technical competence and quality of its testing and calibration laboratories. This accreditation ensures accurate, reliable, and globally recognized results.<\/p><p><strong>2. ISO 9001:2015 Certification<br\/><\/strong>Voxtur Bio complies with <strong>ISO 9001:2015<\/strong>, the international standard for Quality Management Systems (QMS). This demonstrates the company's commitment to consistently providing high-quality products and services that meet customer and regulatory requirements.<\/p><p><strong>3. ISO 13485 Certification<br\/><\/strong>The <strong>ISO 13485 Certification<\/strong> highlights Voxtur Bio’s compliance with global standards for the quality and safety of medical devices. It ensures all processes meet stringent regulatory and customer requirements.<\/p><p><strong>4. GLP Certification (Good Laboratory Practices)<br\/><\/strong>Voxtur Bio follows <strong>GLP Standards<\/strong> to ensure the reliability, integrity, and reproducibility of laboratory research and testing. This certification reinforces trust in the quality and accuracy of test results.<\/p><p><strong>5. CDSCO Registration<br\/><\/strong>Voxtur Bio is recognized by the <strong>Central Drugs Standard Control Organization (CDSCO)<\/strong>, India’s apex regulatory body for pharmaceuticals and medical devices. This validates the safety, quality, and efficacy of its products for the healthcare sector.<\/p><p><strong>6. DSIR Recognition<br\/><\/strong>The <strong>Department of Scientific and Industrial Research (DSIR)<\/strong> recognizes Voxtur Bio's in-house <strong>Research & Development<\/strong> unit for innovation and technological advancements, driving impactful contributions to healthcare and diagnostics.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t",
+        "text_EPhe8j"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP"
+  ]
+}

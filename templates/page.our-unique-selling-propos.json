@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Unique Selling Proposition (USP)",
+            "heading_size": "h2"
+          }
+        },
+        "text_EPhe8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Voxtur Bio Ltd., we are revolutionizing diagnostics to empower healthcare providers and patients with cutting-edge solutions. Our dedication to innovation, quality, and accessibility defines who we are and distinguishes us in the healthcare industry. Here’s why Voxtur Bio stands out:<\/p><p><strong>1. Pioneers in Rapid Diagnostics<\/strong><br\/>Voxtur Bio specializes in Rapid Diagnostic Test Kits that deliver instant, accurate, and reliable results, eliminating the need for complex laboratory setups. From infectious diseases to chronic conditions, our products enable timely interventions that can save lives.<\/p><p>2. Patient-Centric Approach<br\/>Every innovation at Voxtur Bio revolves around patient needs. Our Self-Test Kits and other self-care diagnostics empower individuals to take control of their health, offering privacy, convenience, and accessibility.<\/p><p><strong>3. High Standards of Quality and Compliance<\/strong><br\/>Adhering to international standards such as ISO, CE, and FDA regulations, our products undergo rigorous testing to ensure accuracy and reliability. Both healthcare professionals and patients trust Voxtur Bio for its uncompromising quality.<\/p><p><strong>4. Solutions for Every Market<\/strong><br\/>Voxtur Bio serves a broad spectrum of healthcare markets:Point-of-Care Testing: Bringing diagnostics closer to patients.Home-Use Testing: Empowering individuals to manage their health independently.Hospital & Laboratory Solutions: Providing reliable, scalable, and efficient diagnostics.Pharma Collaborations: Innovating together for a global healthcare impact.<\/p><p><strong>5. Commitment to Affordability and Accessibility<\/strong><br\/>We believe that quality healthcare should not come at a premium. Voxtur Bio’s products are designed to be cost-effective and widely accessible, bridging the gap between innovation and affordability.<\/p><p><strong>6. Sustainability and Ethical Practices<\/strong><br\/>Our mission extends beyond business. We are committed to sustainable practices and actively contribute to building a healthier, more equitable world.<\/p><p><strong>7. Backed by a Visionary Team<\/strong><br\/>At Voxtur Bio, our team of experienced scientists, engineers, and healthcare professionals work passionately to redefine diagnostics. Guided by strong leadership and a clear vision, we continue to push the boundaries of what’s possible.<\/p><p><strong>Voxtur Bio: The Future of Diagnostics<\/strong><\/p><p>Whether you’re a healthcare professional, a patient, or a partner, Voxtur Bio stands as your trusted ally in delivering diagnostics that matter. With us, healthcare is smarter, faster, and more accessible than ever before.Discover the difference. Explore Voxtur Bio.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t",
+        "text_EPhe8j"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP"
+  ]
+}

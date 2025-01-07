@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h2"
+          }
+        },
+        "text_EPhe8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Voxtur Bio Limited, we are proud to be a front-runner in innovative, indigenously manufactured technologies for In-Vitro Diagnostic (IVD) test kits and reagents. Headquartered in Palghar, Maharashtra, we are committed to redefining diagnostic excellence in India and beyond.<\/p><p>A key driver of our success is our DSIR-approved in-house R&D department, which has enabled us to develop advanced and sophisticated technologies that deliver high-quality diagnostic solutions. This unwavering emphasis on innovation ensures that our products meet the dynamic needs of healthcare professionals.<\/p><p>At Voxtur Bio, we don’t just manufacture diagnostic tools—we pioneer solutions that empower healthcare, improve outcomes and shape a healthier future.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t",
+        "text_EPhe8j"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP"
+  ]
+}

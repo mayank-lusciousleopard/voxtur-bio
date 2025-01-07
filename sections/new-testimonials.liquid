@@ -1,0 +1,276 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: 0;
+    }
+  }
+{%- endstyle -%}
+<div class="new-testimonial-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    <div class="heading_section page-width">
+      {%- if section.settings.title != blank -%}
+        <div class="my-featured-title">
+        <h2 class="title {{ section.settings.heading_size }} center">
+          {{ section.settings.title | escape }}
+        </h2>
+        </div>
+      {%- endif -%}
+      {%- if section.settings.content != blank -%}
+        <div class="sub_title center">
+          {{ section.settings.content }}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="my-testimonials-sec-cont">
+      {{ section.settings.custom_liquid }}
+      <div class="testimonial quotes {% comment %}swiper {% endcomment %}">
+        <div class="my-testimonial-slick {% comment %}swiper-wrapper{% endcomment %}">
+          {%- for block in section.blocks -%}
+            <div class="{% comment %}swiper-slide{% endcomment %}">
+              <div class="testimonial_wrapper">
+                <div class="testimonial_content">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="57" height="46" viewBox="0 0 57 46" fill="none">
+  <path opacity="0.7" d="M49.834 21.4255C48.7588 20.3905 48.1315 19.068 47.9524 17.458C47.8329 15.9055 48.0121 14.2667 48.49 12.5417C49.0276 10.8167 49.8041 9.1204 50.8196 7.45288C51.835 5.78536 52.9699 4.34785 54.2243 3.14034C55.0606 2.27783 55.2398 1.55907 54.762 0.984062C54.3438 0.466557 53.7166 0.437805 52.8804 0.897812C50.3716 2.16283 47.803 3.74409 45.1748 5.64161C42.5465 7.59663 40.1572 9.83915 38.0068 12.3692C35.8564 14.8992 34.0942 17.7742 32.7204 20.9943C31.4062 24.2143 30.7492 27.7506 30.7492 31.6031C30.7492 33.3857 31.0478 35.0819 31.6452 36.6919C32.2425 38.3595 33.0788 39.797 34.154 41.0045C35.2889 42.2695 36.6329 43.2758 38.186 44.0233C39.739 44.7708 41.4414 45.1445 43.2932 45.1445C45.1449 45.1445 46.8473 44.7995 48.4004 44.1095C50.0132 43.477 51.387 42.5858 52.522 41.4357C53.7166 40.3432 54.6425 39.0495 55.2996 37.5544C55.9566 36.0594 56.2852 34.4782 56.2852 32.8107C56.2852 31.4306 56.0761 30.1944 55.658 29.1019C55.2996 28.0093 54.8217 27.0318 54.2243 26.1693C53.627 25.3068 52.9401 24.4731 52.1636 23.668C51.387 22.9205 50.6105 22.173 49.834 21.4255ZM19.37 21.4255C18.2948 20.3905 17.6676 19.068 17.4884 17.458C17.3689 15.9055 17.5481 14.2667 18.026 12.5417C18.5636 10.8167 19.3401 9.1204 20.3556 7.45288C21.371 5.78536 22.506 4.34785 23.7604 3.14034C24.5966 2.27783 24.7758 1.55907 24.298 0.984062C23.8798 0.466557 23.2526 0.437805 22.4164 0.897812C19.9076 2.16283 17.339 3.74409 14.7108 5.64161C12.0825 7.59663 9.69316 9.83915 7.54276 12.3692C5.39236 14.8992 3.63022 17.7742 2.25636 20.9943C0.942223 24.2143 0.285156 27.7506 0.285156 31.6031C0.285156 33.3857 0.583823 35.0819 1.18116 36.6919C1.77849 38.3595 2.61476 39.797 3.68996 41.0045C4.82489 42.2695 6.16889 43.2758 7.72196 44.0233C9.27502 44.7708 10.9774 45.1445 12.8292 45.1445C14.6809 45.1445 16.3833 44.7995 17.9364 44.1095C19.5492 43.477 20.923 42.5858 22.058 41.4357C23.2526 40.3432 24.1785 39.0495 24.8356 37.5544C25.4926 36.0594 25.8212 34.4782 25.8212 32.8107C25.8212 31.4306 25.6121 30.1944 25.194 29.1019C24.8356 28.0093 24.3577 27.0318 23.7604 26.1693C23.163 25.3068 22.4761 24.4731 21.6996 23.668C20.923 22.9205 20.1465 22.173 19.37 21.4255Z" fill="#C9C9C9"/>
+</svg>
+                  {% if block.settings.title != blank %}
+                <div class="testimonial_title">
+                  <h2 class="h3">{{ block.settings.title }}</h2>
+                </div>
+              {% endif %}
+                  {%- if block.settings.content != blank -%}
+                    <div class="rte">{{ block.settings.content }}</div>
+                  {%- endif -%}
+            <div class="testimonial_content_bottom">
+              <div class="testimonial_content_bottom_inner">
+            {% if block.settings.image != blank %}
+            <div class="testimonial_auth_img">
+                  {{ block.settings.image | image_url: width: 90 | image_tag: loading: 'lazy', class: 'card__image' }}
+                </div>
+              {% endif %}
+            <div class="test_inner-cont">
+                  {%- if block.settings.author != blank -%}
+                    <div class="inline-richtext">{{ block.settings.author }}</div>
+                  {%- endif -%}
+            <div class="cli-inner-icon">
+            {{ block.settings.rating }}
+                  </div>
+            </div>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% comment %}
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".quotes", {
+    /*spaceBetween: 30,
+    slidesPerView: '3',*/
+    /*centeredSlides: true,*/
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+    },
+    freeMode: true,
+    speed: 5000,
+    shortSwipes: false,
+    longSwipes: false,
+   /* allowTouchMove: false,
+    grabCursor: false,*/
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween: 30,
+      },
+    },
+  });
+</script>
+{% endcomment %}
+<style>
+  .new-testimonial-section .my-testimonial-slick button.slick-arrow {
+    background: #943934;
+    z-index: 9;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+        top: 100px;
+} 
+ .new-testimonial-section .my-testimonial-slick button.slick-prev.slick-arrow {
+    left: -5px;
+}
+  .new-testimonial-section .my-testimonial-slick button.slick-next.slick-arrow {
+    right: -5px;
+}
+  .new-testimonial-section .my-testimonial-slick button.slick-arrow:before {
+    display: none;
+}
+  .new-testimonial-section .my-testimonial-slick button.slick-arrow .flickity-button-icon {
+    fill: #fff;
+    width: 20px;
+}
+  .new-testimonial-section .my-testimonial-slick button.slick-prev.slick-arrow svg.flickity-button-icon {
+    transform: rotate(180deg);
+}
+</style>
+<script>
+  $('.new-testimonial-section .my-testimonial-slick').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+    nextArrow: '<button type="button" class="slick-next"><svg class="flickity-button-icon" viewBox="0 0 100 100"><title>Next</title><path d="M 10, 50 L 60, 100 L 60, 95 L 20, 50 L 60, 5 L 60, 0 Z" class="arrow" transform="translate(100, 100) rotate(180)"></path></svg></button>',
+  prevArrow: '<button type="button" class="slick-prev"><svg class="flickity-button-icon" viewBox="0 0 100 100"><title>Next</title><path d="M 10, 50 L 60, 100 L 60, 95 L 20, 50 L 60, 5 L 60, 0 Z" class="arrow" transform="translate(100, 100) rotate(180)"></path></svg></button>',
+    arrows: false,
+    dots: false,
+     centerMode: true,
+  centerPadding: '200px',
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+  centerPadding: '40px',
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+  centerPadding: '40px',
+      }
+    }
+  ]
+});
+</script>
+
+
+
+{% schema %}
+{
+  "name": "new testimonials",
+  "class": "shopify-section--testimonials",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "testimonial",
+      "settings": [
+        {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Avatar"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "author",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "rating",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "new testimonials"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

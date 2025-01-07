@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gbraGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hD6P6t": {
+          "type": "heading",
+          "settings": {
+            "heading": "OEM Solutions: Custom Commercial Solutions",
+            "heading_size": "h2"
+          }
+        },
+        "text_EPhe8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bringing a diagnostic or life science product to market is an uphill task requiring continuous innovation, quality materials, and navigation through the regulatory landscape. We can help take your product to market with speed and precision and without the stress and costs associated with do-it-all on your own. As a vertically integrated organization, Thermo Fisher Scientific has the experience and expertise to support all phases of product development, from concept development to commercialization. Our OEM solutions and services include turnkey and custom products. <strong>Figure 1<\/strong> lists all our OEM offerings.<\/p><p>Our OEM team specializes in helping you bring your solutions to market faster. The advantages of Thermo Fisher Scientific OEM solutions are listed in <strong>Figure 2<\/strong>.<\/p><p><strong>Figure 1. Snapshot of OEM services.<\/strong><\/p>"
+          }
+        },
+        "image_jQg6jw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2025-01-02T113029.565.png"
+          }
+        },
+        "text_4PWzCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Figure 2. Advantages of OEM solutions.<\/strong><\/p>"
+          }
+        },
+        "image_QNjAia": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2025-01-02T113230.633.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hD6P6t",
+        "text_EPhe8j",
+        "image_jQg6jw",
+        "text_4PWzCY",
+        "image_QNjAia"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_xyb7yM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bECjhD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality",
+            "heading_size": "h2"
+          }
+        },
+        "text_gCJyEK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Assurance of quality marked by reduced batch variability and robust quality control testing to help meet regulatory standards.<\/p><p><strong>Accreditations and regulatory compliance<\/strong><\/p><ol><li>ISO 9001, ISO 13485, and ISO 14001 certified quality systems<\/li><li>US 21 CFR Part 820 Quality System (current good manufacturing practice, cGMP)<\/li><li>Class I, II, and III medical devices and general-purpose reagent certified manufacturer under USDA guidelines<\/li><li>US Food and Drug Administration (FDA) and the UK Medicines and Healthcare products Regulatory Agency (MHRA) registered media production sites<\/li><li>Select good laboratory practice (GLP) accredited sites<\/li><li>Readily available and downloadable Certificates of Analysis (CoA) and Certificates of Conformance (CoC)<\/li><\/ol><p><\/p><p>*Note: Certain regulatory standards are available at specific sites only.<\/p>"
+          }
+        },
+        "heading_qaHBFH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Resources & Expertise",
+            "heading_size": "h2"
+          }
+        },
+        "text_xhq63R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consult with our R&D experts to set off your project on the right track, execute projects with precision, and troubleshoot projects inflight. Our manufacturing teams have supported a wide range of products across a diverse group of therapeutic and diagnostic focus areas including oncology, infectious disease, cell therapy, agricultural and environmental applications, and food safety.<\/p>"
+          }
+        },
+        "heading_4ji7VH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customization",
+            "heading_size": "h2"
+          }
+        },
+        "text_bHUpgg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Execute your unique vision through a wide selection of off-the-shelf and custom manufacturing options and services. These include component alterations, modified reagents, molecular synthesis, novel consumables, custom packaging, and other end-to-end product development.<\/p>"
+          }
+        },
+        "heading_3bhq9V": {
+          "type": "heading",
+          "settings": {
+            "heading": "workflow Solutions",
+            "heading_size": "h2"
+          }
+        },
+        "text_XrBXVM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Execute your unique vision through a wide selection of off-the-shelf and custom manufacturing options and services. These include component alterations, modified reagents, molecular synthesis, novel consumables, custom packaging, and other end-to-end product development.<\/p>"
+          }
+        },
+        "heading_VMkpAN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Access to Commercial Rights",
+            "heading_size": "h2"
+          }
+        },
+        "text_YjHEHx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When using our products for commercial use, such as resale, repackaging, developing, and manufacturing assays for end customers, we grant commercial rights. Our team makes it seamless to obtain commercial rights.<\/p>"
+          }
+        },
+        "heading_BcmXKk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partnership",
+            "heading_size": "h2"
+          }
+        },
+        "text_iMCfjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When partnering with our OEM team, we bring leading regulatory affairs, legal, and financial experts to support submission, approval, and market launch.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bECjhD",
+        "text_gCJyEK",
+        "heading_qaHBFH",
+        "text_xhq63R",
+        "heading_4ji7VH",
+        "text_bHUpgg",
+        "heading_3bhq9V",
+        "text_XrBXVM",
+        "heading_VMkpAN",
+        "text_YjHEHx",
+        "heading_BcmXKk",
+        "text_iMCfjc"
+      ],
+      "custom_css": [
+        "h2.rich-text__heading {color: #1b5981;}",
+        ".rich-text__text.rte {text-align: justify;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gbraGP",
+    "rich_text_xyb7yM"
+  ]
+}

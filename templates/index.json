@@ -1,0 +1,673 @@
+{
+  "sections": {
+    "slideshow_hAfDJn": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_xwCenb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-20T141124.402.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-12-20T141145.575.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_eDCVU9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-15T125024.358.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-11-15T125139.030.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MP69kP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-15T125045.922.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-11-15T125203.161.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6z3HAt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-11-15T125102.720.png",
+            "mobile_image": "shopify:\/\/shop_images\/image_-_2024-11-15T125232.607.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xwCenb",
+        "slide_eDCVU9",
+        "slide_MP69kP",
+        "slide_6z3HAt"
+      ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_tDKTXT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cJWR7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Voxtur is an Innovative Manufacturer of Indigenous Invitro Diagnostic Kits and Reagents with in-house R&D & Marquee Healthcare players as its Marketing and Distribution partners<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cJWR7R"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "collection_list_NkwFWE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_RQxNJU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reliable-rapid-test-kits",
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>Provide results within minutes to a few hours.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for simple usage at home or in non-laboratory settings.<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "featured_collection_frVMNG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blood-grouping-antisera-test-kits",
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>Provide results within minutes to a few hours.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for simple usage at home or in non-laboratory settings.<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "featured_collection_EEaVcw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "agglutination-test-kits",
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>Provide results within minutes to a few hours.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for simple usage at home or in non-laboratory settings.<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "featured_collection_cJLcy4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "enzyme-linked-imunoassay-elisa-test-kits",
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>Provide results within minutes to a few hours.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for simple usage at home or in non-laboratory settings.<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_RQxNJU",
+        "featured_collection_frVMNG",
+        "featured_collection_EEaVcw",
+        "featured_collection_cJLcy4"
+      ],
+      "settings": {
+        "title": "Explore Our Kits",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "latest_image_with_text_MgXXrJ": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_ptLU9a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\"Our team is readily available to assist with the proper understanding and use of medical device test kits, ensuring that you make well-informed decisions regarding your health.<\/strong><\/p><p>Allow our expert medical team to guide you through your testing and health concerns with confidence. Backed by years of experience in diagnostics and healthcare, our dedicated team is committed to providing Premium Members with personalized consultations and comprehensive support for all your rapid testing needs. Whether it's selecting the appropriate test or interpreting your results, we offer expert advice at every stage of the process.\"<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_xNkUia": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enroll Now",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ptLU9a",
+        "button_xNkUia"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {\/* color: #416b82; *\/}"
+      ],
+      "settings": {
+        "heading": "<p>Consult with Our Health Experts<\/p>",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xJ9jQr": {
+      "type": "image-with-text",
+      "blocks": {
+        "iconwithtext_mWLyhD": {
+          "type": "iconwithtext",
+          "settings": {
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-13T130355.383.png",
+            "text_1": "<p>We ensure quick and reliable delivery of your rapid test kits.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-13T130419.485.png",
+            "text_2": "<p>Your health is our priority, and we’re committed to supporting it.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-13T130439.125.png",
+            "text_3": "<p>Get what you need, when you need it—delivered fast.<\/p>",
+            "text_4": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "iconwithtext_mWLyhD"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_-_2024-11-14T162140.588.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "latest_image_with_text_mVrQd9": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_QXRAJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rapid test kits are diagnostic tools designed to quickly and efficiently detect specific conditions, diseases, or infections. They are widely used for medical screening, enabling individuals or healthcare professionals to get results within a short period, typically ranging from a few minutes to a couple of hours, depending on the test.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "iconwithtext_8jh6WM": {
+          "type": "iconwithtext",
+          "settings": {
+            "icon_code_1": "shopify:\/\/shop_images\/image_-_2024-11-06T105356.381.png",
+            "text_1": "<p>Provide results within minutes to a few hours.<\/p>",
+            "icon_code_2": "shopify:\/\/shop_images\/image_-_2024-11-06T105416.095.png",
+            "text_2": "<p>Compact and convenient for use in various locations.<\/p>",
+            "icon_code_3": "shopify:\/\/shop_images\/image_-_2024-11-06T105430.198.png",
+            "text_3": "<p>Designed for simple usage at home or in non-laboratory settings.<\/p>",
+            "icon_code_4": "shopify:\/\/shop_images\/image_-_2024-11-06T105446.791.png",
+            "text_4": "<p>More affordable than lab-based testing methods.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_nCBUXT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_QXRAJ7",
+        "iconwithtext_8jh6WM",
+        "button_nCBUXT"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__heading {color: #416b82;}",
+        "@media screen and (max-width: 767px) {.normal-image-with-text-section a.button {display: flex; margin: 0 auto; margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "heading": "<p>Rapid <br\/>Test Kits<\/p>",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_tab_with_products_8t7EUn": {
+      "type": "new-tab-with-products",
+      "blocks": {
+        "outertab_zB3Et3": {
+          "type": "outertab",
+          "settings": {
+            "main_head": "Antisera",
+            "title": "Rapid",
+            "title_2": "Antisera",
+            "title_3": "Agglutination",
+            "title_4": "Enzyme-linked",
+            "title_5": "",
+            "title_6": "",
+            "title_7": "",
+            "title_8": "",
+            "title_9": "",
+            "title_10": "",
+            "heading_size": "h1",
+            "description": "",
+            "show_description": false,
+            "description_style": "body",
+            "collection": "reliable-rapid-test-kits",
+            "collection_2": "blood-grouping-antisera-test-kits",
+            "collection_3": "agglutination-test-kits",
+            "collection_4": "enzyme-linked-imunoassay-elisa-test-kits",
+            "collection_5": "",
+            "collection_6": "",
+            "collection_7": "",
+            "collection_8": "",
+            "collection_9": "",
+            "collection_10": "",
+            "products_to_show": 4,
+            "enable_desktop_slider": false,
+            "desktopShow": 4,
+            "mobileInit": true,
+            "mobileShow": 2,
+            "full_width": false,
+            "show_view_all": false,
+            "view_all_style": "outline",
+            "image_ratio": "square",
+            "show_secondary_image": true,
+            "show_vendor": false,
+            "show_rating": true,
+            "enable_quick_add": "standard",
+            "add_to_cart": true,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "outertab_zB3Et3"
+      ],
+      "settings": {
+        "title": "Most Selling Rapid test kits.",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "extra_content": ""
+      }
+    },
+    "latest_image_with_text_fyLVnW": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_Qw4fhU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you need bulk orders for your business, hospital, or healthcare facility, we’re here to help. From medical centers to corporate testing, we offer fast, reliable service at competitive prices for all large-scale needs.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_DU8H3W": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/bulk-orders",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_Qw4fhU",
+        "button_DU8H3W"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {\/* color: #416b82; *\/}"
+      ],
+      "settings": {
+        "heading": "<p>Need Assistance<br\/>with Bulk Orders?<\/p>",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_dfqwTW": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner__content {display: none;}",
+        "img {background: #fff;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_-_2024-11-06T151941.539.png",
+        "mobile_image": "shopify:\/\/shop_images\/image_-_2024-11-06T151941.539.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "latest_image_with_text_hLLDYP": {
+      "type": "latest-image-with-text",
+      "blocks": {
+        "text_x8LQHQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\"Your Trusted Partner in IVD Medical Device Manufacturing\"<\/strong><\/p><p>We are committed to supporting your business, hospital, or healthcare facility with bulk orders of high-quality IVD medical devices. Whether for medical centres or corporate testing, we offer fast, reliable solutions at competitive prices to meet your large-scale requirements.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_FzQQ4H": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_x8LQHQ",
+        "button_FzQQ4H"
+      ],
+      "settings": {
+        "heading": "<h2>Your Trusted Clinical Diagnostics Contract Manufacturing Partner<\/h2>",
+        "heading_size": "h1",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_fbAQ6p": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".node-marquee__el span {color: #fff; display: inline-block; vertical-align: middle;}",
+        ".node-marquee__el > div {margin-top: -1.5rem;}",
+        "@media screen and (min-width: 767px) {.node-marquee__el > div {margin-top: -1.5rem; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div id=\"node-marquee\">\n\n<div style=\"font-size:16px;\">\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here   <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>\n<span style=\"margin: 0 50px;\"> <span style=\"color: #2B2B59;\"><\/span> Headline goes here  <\/span>  \n<\/div>\n\n<\/div>\n<script>\nnodeMarquee({\n    parent: '#node-marquee',\n    speed: 1,\npauseOnHover:!0\n});\n<\/script>",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_FNwMPy": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner__content {display: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_-_2024-11-05T153041.725.png",
+        "mobile_image": "shopify:\/\/shop_images\/image_-_2024-11-05T153100.878.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_eG8iYz": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "collapsible_content_j3DyQr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_mEWa3Y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qjViKF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bHtfXa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TbrTJk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6JykNd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ym9J7R": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xcx4BR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem Ipsum is simply dummy text  ",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text  Lorem Ipsum is simply dummy text  <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_mEWa3Y",
+        "collapsible_row_qjViKF",
+        "collapsible_row_bHtfXa",
+        "collapsible_row_TbrTJk",
+        "collapsible_row_6JykNd",
+        "collapsible_row_Ym9J7R",
+        "collapsible_row_xcx4BR"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.collapsible-content__heading {color: #416b82;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ’s",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/image_-_2024-11-05T154026.092.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_hAfDJn",
+    "rich_text_tDKTXT",
+    "collection_list_NkwFWE",
+    "latest_image_with_text_MgXXrJ",
+    "image_with_text_xJ9jQr",
+    "latest_image_with_text_mVrQd9",
+    "new_tab_with_products_8t7EUn",
+    "latest_image_with_text_fyLVnW",
+    "image_banner_dfqwTW",
+    "latest_image_with_text_hLLDYP",
+    "custom_liquid_fbAQ6p",
+    "image_banner_FNwMPy",
+    "rich_text_eG8iYz",
+    "collapsible_content_j3DyQr"
+  ]
+}
